@@ -1,0 +1,6 @@
+Variable,Chi-square,p-value,p-value formatted
+CurrentAlcoholUse,1720.87,0.0,<0.001
+CurrentBingeDrinking5OrMore,1580.17,0.0,<0.001
+CurrentMarijuaUse,1981.21,0.0,<0.001
+PhysicalFighting,298.78,5.624742864304593e-51,<0.001
+SadOrHopeless,190.99,3.722882769246307e-41,<0.001

@@ -1,0 +1,5 @@
+SmokingIntensity,CurrentAlcoholUse,CurrentBingeDrinking5OrMore,CurrentMarijuaUse,PhysicalFighting,Sleep
+Non-Smoker,1.55,1.28,1.16,1.44,3.83
+Light,2.76,2.36,1.86,1.83,3.56
+Moderate,3.32,2.68,2.24,2.22,3.32
+Heavy,3.24,2.84,3.06,2.08,3.07
