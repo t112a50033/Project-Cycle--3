@@ -57,29 +57,31 @@ In this project, "success" means the student is classified as a current cigarett
 
 Let:
 
-- \(p_{male}\) = true proportion of male students who currently use cigarettes
-- \(p_{female}\) = true proportion of female students who currently use cigarettes
+- $p_{male}$ = true proportion of male students who currently use cigarettes
+- $p_{female}$ = true proportion of female students who currently use cigarettes
 
 ### Null Hypothesis
 
-\[
+$$
 H_0: p_{male} - p_{female} = 0
-\]
+$$
 
 There is no difference in the current cigarette use proportion between male and female students.
 
 ### Alternative Hypothesis
 
-\[
-H_a: p_{male} - p_{female} \ne 0
-\]
+$$
+H_a: p_{male} - p_{female} \neq 0
+$$
 
 There is a difference in the current cigarette use proportion between male and female students.
 
 ## 5. Interpretation Direction
 
-- If \(\hat{p}_{male} - \hat{p}_{female} > 0\), male students have a higher current cigarette use proportion.
-- If \(\hat{p}_{male} - \hat{p}_{female} < 0\), female students have a higher current cigarette use proportion.
-- If the p-value is less than 0.05, the difference is statistically significant.
-- If the p-value is greater than or equal to 0.05, there is not sufficient evidence of a significant difference.
+- If $\hat{p}_{male} - \hat{p}_{female} > 0$, male students have a higher current cigarette use proportion.
 
+- If $\hat{p}_{male} - \hat{p}_{female} < 0$, female students have a higher current cigarette use proportion.
+
+- If the p-value is less than 0.05, the difference is statistically significant.
+
+- If the p-value is greater than or equal to 0.05, there is not sufficient evidence of a significant difference.

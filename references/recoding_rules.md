@@ -49,12 +49,15 @@ Because the response variable is binary and the group variable has two groups, t
 
 The analysis compares:
 
-\[
+$$
 \hat{p}_{male} - \hat{p}_{female}
-\]
+$$
 
 where:
 
-- \(\hat{p}_{male}\) = proportion of male students who currently use cigarettes
-- \(\hat{p}_{female}\) = proportion of female students who currently use cigarettes
+where:
+
+- $\hat{p}_{male}$ = proportion of male students who currently use cigarettes
+- $\hat{p}_{female}$ = proportion of female students who currently use cigarettes
+
 
