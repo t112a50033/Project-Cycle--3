@@ -1,92 +1,101 @@
 # Project Cycle 3
-## Gender and Current Cigarette Use
 
----
+## Smoking Behavior Analysis Using the YRBS 2007 Dataset
 
 ### Group Information
 
-| Item | Information |
-|--------|--------|
-| Group Number | 4 |
-| Member 1 | 王靖慈 112A50033 |
-| Member 2 | 王薪崴 113370231 |
-| Dataset | YRBS_2007.csv |
+| Item         | Information                            |
+| ------------ | -------------------------------------- |
+| Group Number | 4                                      |
+| Member 1     | 王靖慈                                    |
+| Member 2     | 王薪崴                                    |
+| Dataset      | YRBS 2007 (Youth Risk Behavior Survey) |
 
 ---
 
-### Research Question
+## Project Overview
 
-> Is the proportion of current cigarette use different between male and female students?
+This project investigates smoking behavior among students using the YRBS 2007 dataset.
 
----
-
-### Variables
-
-#### Group Variable
-
-| Variable | Description |
-|-----------|------------|
-| WhatIsYourSex | Student sex (Male vs Female) |
-
-| Code | Group |
-|--------|--------|
-| 1 | Male |
-| 2 | Female |
-
-#### Response Variable
-
-| Variable | Description |
-|-----------|------------|
-| CurrentCigaretteUse | Current cigarette use status |
+The project consists of one main inferential analysis and two extension analyses. The main analysis focuses on gender differences in current cigarette use, while the extensions explore behavioral characteristics of female smokers and behavioral trends across different smoking intensity levels.
 
 ---
 
-### Recoding Rules
+## Main Analysis
 
-According to the Cycle 3 instructions:
+### Gender and Current Cigarette Use
 
-| Original Code | Recoded Value |
-|--------------|--------------|
-| 1 | 0 (Non-current smoker) |
-| 2–7 | 1 (Current smoker) |
+**Research Question**
 
-Binary Variable Definition:
+Is the proportion of current cigarette use different between male and female students?
 
-- 1 = Current cigarette user
-- 0 = Non-current cigarette user
+**Variables**
 
----
+| Type              | Variable            |
+| ----------------- | ------------------- |
+| Group Variable    | WhatIsYourSex       |
+| Response Variable | CurrentCigaretteUse |
 
-### Statistical Method
+**Method**
 
-| Item | Description |
-|--------|--------|
-| Method | Two-Proportion z-Test |
-| Confidence Level | 95% |
-| Significance Level | α = 0.05 |
-| Response Variable Type | Binary |
-| Number of Groups | 2 Independent Groups |
+* Two-Proportion z-Test
+* 95% Confidence Interval for Difference in Proportions
+
+**Purpose**
+
+To determine whether smoking prevalence differs significantly between male and female students.
 
 ---
 
-### Hypotheses
+## Extension 1
 
-$$
-H_0 : p_{male} - p_{female} = 0
-$$
+### Female Smoker Behavioral Profile
 
-$$
-H_a : p_{male} - p_{female} \neq 0
-$$
+**Research Question**
 
-where
+Do female smokers and female non-smokers exhibit different health-risk behaviors?
 
-- $p_{male}$ = true proportion of male students who currently use cigarettes
-- $p_{female}$ = true proportion of female students who currently use cigarettes
+**Groups**
+
+* Female Smokers
+* Female Non-Smokers
+
+**Behavioral Variables Examined**
+
+* Current Alcohol Use
+* Marijuana Use
+* Physical Fighting
+* Sad or Hopeless Feeling
+* Other selected risk behaviors
+
+**Purpose**
+
+To identify behavioral patterns associated with smoking among female students.
 
 ---
 
-### Project Structure
+## Extension 2
+
+### Smoking Intensity Trend Analysis Among Female Students
+
+**Research Question**
+
+As smoking intensity increases, do health-risk behaviors also increase?
+
+**Groups**
+
+* Non-Smoker
+* Light Smoker
+* Moderate Smoker
+* Heavy Smoker
+
+**Purpose**
+
+To examine whether increasing levels of cigarette use are associated with higher levels of risk behaviors.
+
+---
+
+## Project Structure
 
 ```text
 project-cycle-3/
@@ -96,6 +105,9 @@ project-cycle-3/
 │   └── processed/
 │
 ├── notebooks/
+│   ├── cycle3_gender_smoking.ipynb
+│   ├── extension1_female_smoker_behavioral_profile.ipynb
+│   └── extension2_smoking_intensity_trend_analysis.ipynb
 │
 ├── outputs/
 │   ├── figures/
@@ -103,6 +115,8 @@ project-cycle-3/
 │   └── summary/
 │
 ├── references/
+│   ├── recoding_rules.md
+│   └── variable_definitions.md
 │
 ├── report/
 │
@@ -111,17 +125,48 @@ project-cycle-3/
 
 ---
 
-### Conclusion
+## Statistical Methods
 
-This project examines whether the proportion of current cigarette use differs between male and female students using the YRBS 2007 dataset.
+### Main Analysis
 
-The analysis uses a two-proportion z-test to compare smoking proportions between the two groups. The results are interpreted using a 95% confidence interval and a significance level of 0.05.
+* Two-Proportion z-Test
+* Confidence Interval for Difference in Proportions
 
-Because the YRBS dataset is observational survey data, the findings indicate an association rather than a causal relationship.
+### Extension Analyses
+
+* Descriptive Statistics
+* Group Comparison
+* Trend Analysis
+* Data Visualization
 
 ---
 
-### References
+## Key Findings
 
-- Youth Risk Behavior Survey (YRBS) 2007
-- Project Cycle 3 Instruction
+### Main Analysis
+
+Male students exhibited a higher prevalence of current cigarette use than female students.
+
+### Extension 1
+
+Female smokers generally showed higher levels of several health-risk behaviors compared with female non-smokers.
+
+### Extension 2
+
+Higher smoking intensity was associated with higher levels of multiple risk behaviors, suggesting a behavioral risk gradient among female students.
+
+---
+
+## Conclusion
+
+The findings indicate that smoking behavior differs across demographic and behavioral groups within the YRBS 2007 dataset.
+
+Gender is associated with differences in smoking prevalence, and among female students, smoking status and smoking intensity are related to broader patterns of health-risk behaviors.
+
+These results provide a more comprehensive understanding of smoking-related behavioral profiles among adolescents.
+
+---
+
+## Notes
+
+This project uses observational survey data from the YRBS 2007 dataset. Therefore, the analyses identify statistical associations rather than causal relationships.
