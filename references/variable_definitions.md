@@ -85,3 +85,35 @@ There is a difference in the current cigarette use proportion between male and f
 - If the p-value is less than 0.05, the difference is statistically significant.
 
 - If the p-value is greater than or equal to 0.05, there is not sufficient evidence of a significant difference.
+
+## 6. Method Choice
+
+The response variable (CurrentCigaretteUse_binary) is a binary variable representing whether a student currently uses cigarettes.
+
+The group variable (WhatIsYourSex) contains two independent groups: female students and male students.
+
+Because the analysis compares the proportions of a binary outcome between two independent groups, the appropriate statistical method is a two-proportion z-test.
+
+In addition, a 95% confidence interval for the difference in proportions is calculated to estimate the magnitude of the group difference.
+
+## 7. Assumptions Considered
+
+The following assumptions were considered before conducting the two-proportion z-test:
+
+1. Independent Groups
+   - Female and male students are treated as independent groups.
+
+2. Binary Response Variable
+   - Current cigarette use was recoded into a binary variable:
+     - 1 = current cigarette user
+     - 0 = non-current cigarette user
+
+3. Sufficient Sample Size
+   - Both groups contain large sample sizes and sufficient numbers of smokers and non-smokers.
+
+4. Valid Recoding
+   - Current cigarette use was recoded according to the Cycle 3 instructions:
+     - codes 2–7 = current cigarette user
+     - code 1 = non-current cigarette user
+
+Based on these considerations, the assumptions for two-proportion inference were considered reasonable.

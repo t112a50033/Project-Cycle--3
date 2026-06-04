@@ -7,16 +7,16 @@ Selected research question: **Is the proportion of current cigarette use differe
 
 Original variable: `WhatIsYourSex`
 
-| Original Code | Meaning | Recoded Variable | Recoded Value |
-|---:|---|---|---:|
-| 1 | Female | `Sex_group` | 0 |
-| 2 | Male | `Sex_group` | 1 |
+| Original Code | Meaning | Final Group |
+|---:|---|---|
+| 1 | Female | Female |
+| 2 | Male | Male |
 
 Notes:
 - Only valid responses coded as `1` or `2` are kept.
 - Missing values and invalid codes are removed.
-- Female students are used as the comparison group.
-- Male students are used as the exposed / main comparison group.
+- Female students form one comparison group.
+- Male students form the second comparison group.
 
 ## 2. Response Variable: CurrentCigaretteUse
 
@@ -52,8 +52,6 @@ The analysis compares:
 $$
 \hat{p}_{male} - \hat{p}_{female}
 $$
-
-where:
 
 where:
 
