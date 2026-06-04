@@ -6,7 +6,7 @@
 
 | Item         | Information                            |
 | ------------ | -------------------------------------- |
-| Group Number | 4                                      |
+| Group Number | 24                                      |
 | Member 1     | 王靖慈  112A50033                         |
 | Member 2     | 王薪崴  113370231                         |
 | Dataset      | YRBS 2007 (Youth Risk Behavior Survey) |
