@@ -170,3 +170,11 @@ These results provide a more comprehensive understanding of smoking-related beha
 ## Notes
 
 This project uses observational survey data from the YRBS 2007 dataset. Therefore, the analyses identify statistical associations rather than causal relationships.
+
+---
+
+## Presentation Video
+
+Project presentation video:
+
+[Watch the presentation video](https://ntutcc-my.sharepoint.com/:v:/g/personal/113370231_cc_ntut_edu_tw/IQBd6WrF7MwkQp_ugGQdDcgSAfY3GeQ0ez_C4YI-Pwt1LBg?e=KpkmIp)
